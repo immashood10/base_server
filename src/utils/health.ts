@@ -21,7 +21,7 @@ export default {
     },
     getDomain: () => {
         try {
-            const url = new URL(config.SERVER_URL as string)
+            const url = new URL(config.SERVER_URL)
             return url.hostname
         } catch (error) {
             throw error

@@ -2,7 +2,6 @@ import { createLogger, format, transports } from 'winston'
 import util from 'util'
 import { ConsoleTransportInstance, FileTransportInstance } from 'winston/lib/winston/transports'
 import config from '../config/config'
-import { EApplicationEnvironment } from '../constant/application'
 import path from 'path'
 
 import * as sourceMapSupport from 'source-map-support'
@@ -27,14 +26,17 @@ const colorize = (level: string) => {
     }
 }
 
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+    typeof value === 'object' && value !== null
+
 const logFormat = format.printf((info) => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+     
     const { level, message, timestamp, meta = {} } = info
 
     const customLevel = colorize(level.toUpperCase())
 
     const customTimestamp = green(timestamp as string)
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+     
     const customMessage = message
     const customMeta = util.inspect(meta, {
         showHidden: false,
@@ -42,19 +44,19 @@ const logFormat = format.printf((info) => {
         colors: true
     })
 
-    const customLog = `${customLevel} [${customTimestamp}] ${customMessage}\n${magenta('Meta')} ${customMeta}\n`
+    const customLog = `${customLevel} [${customTimestamp}] ${customMessage as string}\n${magenta('Meta')} ${customMeta}\n`
 
     return customLog
 })
 
 const fileFormat = format.printf((info) => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+     
     const { level, message, timestamp, meta = {} } = info
 
     const logMeta: Record<string, unknown> = {}
+    const metaRecord = isRecord(meta) ? meta : {}
 
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
-    for (const [key, value] of Object.entries(meta)) {
+    for (const [key, value] of Object.entries(metaRecord)) {
         if (value instanceof Error) {
             logMeta[key] = {
                 name: value.name,
@@ -68,9 +70,9 @@ const fileFormat = format.printf((info) => {
 
     const logData = {
         level: level.toUpperCase(),
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+         
         timestamp,
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+         
         message,
         meta: logMeta
     }
@@ -79,7 +81,7 @@ const fileFormat = format.printf((info) => {
 })
 
 const consoleTransport = (): Array<ConsoleTransportInstance> => {
-    if (config.ENV === EApplicationEnvironment.DEVELOPMENT) {
+    if (config.ENV === 'development') {
         return [
             new transports.Console({
                 level: 'info',
@@ -101,10 +103,14 @@ const fileTransport = (): Array<FileTransportInstance> => {
 }
 
 const dbTransport = (): Array<MongoDBTransportInstance> => {
+    if (config.ENV === 'development' || !config.DATABASE_URL) {
+        return []
+    }
+
     return [
         new transports.MongoDB({
             level: 'info',
-            db: config.DATABASE_URL as string,
+            db: config.DATABASE_URL,
             metaKey: 'meta',
             expireAfterSeconds: 3600 * 24 * 30,
             collection: 'logs'

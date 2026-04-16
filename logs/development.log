@@ -13305,3 +13305,4240 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T12:33:13.226Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T12:33:13.238Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T12:33:13.239Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:24:47.754Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:24:47.773Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:24:47.775Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-09T13:24:54.999Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:29:45.795Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:29:45.807Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:29:45.809Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:30:38.129Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:30:38.156Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:30:38.160Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-09T13:30:39.317Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:37:46.668Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:37:46.686Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:37:46.688Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-09T13:37:52.445Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:38:24.464Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:38:24.484Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-09T13:38:24.486Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T10:44:12.921Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T10:44:12.940Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T10:44:12.943Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T14:53:16.105Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T14:53:18.467Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T14:53:18.485Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-10T14:53:18.490Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:46:18.186Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:46:19.958Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:46:19.968Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:46:19.970Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:59:57.650Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:59:59.752Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:59:59.756Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T13:59:59.757Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:25:35.807Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:25:38.344Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:25:38.350Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:25:38.351Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:04.820Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:06.645Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:06.654Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:06.657Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:11.484Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:13.395Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:13.403Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:26:13.405Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:41:12.360Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:41:14.539Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:41:14.546Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:41:14.548Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:01.911Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:03.773Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:03.781Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:03.782Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:14.292Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:16.081Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:16.089Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:16.091Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:33.495Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:35.303Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:35.307Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:43:35.308Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:44:07.709Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:44:27.275Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:44:29.054Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:44:29.061Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:44:29.068Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:45:07.722Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:45:25.997Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:45:30.224Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:45:30.230Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T14:45:30.232Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:31:34.981Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:31:36.780Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:31:36.785Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:31:36.786Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:31:40.515Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:31:49.254Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:31:49.779Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:31:49.995Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:31:50.326Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:31:50.476Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:32:44.737Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:32:51.679Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:32:51.942Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/.well-known/appspecific/com.chrome.devtools.json"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:34:09.150Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T15:34:09.300Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:34:10.996Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:34:11.000Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T15:34:11.001Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:35:38.247Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:35:40.103Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:35:40.109Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:35:40.110Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T16:35:45.611Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/register?_rsc=19zvn"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T16:35:45.639Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:37:14.192Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:37:16.057Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:37:16.063Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:37:16.063Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:43:06.460Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:43:08.537Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:43:08.546Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:43:08.547Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T16:43:25.717Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T16:43:27.176Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:49:00.749Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:49:02.721Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:49:02.732Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:49:02.733Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:49:59.638Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:50:01.562Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:50:01.571Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:50:01.572Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:52:13.179Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:52:15.055Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:52:15.060Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T16:52:15.061Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:04:42.366Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:04:44.298Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:04:44.302Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:04:44.303Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-12T17:04:47.864Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:12:59.186Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:13:00.967Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:13:00.971Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T17:13:00.972Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T21:55:41.829Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T21:55:43.940Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T21:55:43.948Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-12T21:55:43.950Z",
+    "message": "Application started successfully on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:19:56.238Z",
+    "message": "Server started on port 3000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:20:32.108Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:21:02.356Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 3298073,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 3298075,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 3298065,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:22:55.108Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:23:25.325Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 3441433,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 3441696,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 3441698,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:35:37.617Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:36:08.000Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4204302,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4204294,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4204283,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:36:50.763Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:37:20.969Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4277219,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4277487,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4277486,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:42:14.924Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:42:45.334Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4601397,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4601400,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4601792,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:43:28.978Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:43:59.376Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4675543,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4675539,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 4675786,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:49:24.085Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:49:54.578Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5030669,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5030675,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5030865,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T11:51:20.613Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:51:51.120Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5147104,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5147100,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5147406,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:54:46.119Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5322184,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5322190,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5322455,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T11:55:42.284Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5377998,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5377993,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5377999,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T12:02:03.940Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-00.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5760516,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-01.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5760521,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017": {
+                    "address": "ac-hkk8uqi-shard-00-02.f0ojqtn.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 5760785,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sujefm-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:05:29.939Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:05:29.953Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:05:29.962Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:05:29.969Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:22:59.290Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:22:59.306Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:22:59.314Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:22:59.320Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:42:56.765Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:42:56.788Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:42:56.793Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T12:42:56.799Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:18:56.126Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:18:56.134Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:18:56.140Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:18:56.144Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:31:23.372Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:31:23.383Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:31:23.388Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-13T14:31:23.393Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T14:35:23.923Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T14:39:12.060Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T14:39:12.308Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T14:46:33.315Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T14:49:39.501Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-13T14:51:22.701Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T12:43:29.704Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T12:43:29.718Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T12:43:29.723Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T12:43:29.730Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T12:47:58.073Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1http://localhost:5000/api/v1/auth/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at serveStatic (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T12:51:02.904Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T12:53:18.393Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T12:54:41.165Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/login"
+        },
+        "message": "\"password\" length must be at least 8 characters long",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" length must be at least 8 characters long"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T12:57:26.270Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T12:58:16.107Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:10:14.192Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:10:14.236Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:10:14.272Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:10:14.298Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T14:11:44.107Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-14T14:19:31.499Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:22:16.631Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:22:16.662Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:22:16.675Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:22:16.690Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:23:06.687Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:23:06.714Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:23:06.728Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-14T14:23:06.741Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:05:23.648Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:05:23.673Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:05:23.681Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:05:23.688Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:17:47.027Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:17:47.075Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:17:47.094Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-15T11:17:47.127Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-15T11:19:03.058Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-15T11:43:42.763Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-15T11:43:51.253Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-15T11:44:51.358Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-15T11:45:02.789Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T06:19:46.925Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T06:19:46.957Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T06:19:46.976Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T06:19:47.000Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:10:20.554Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:10:20.570Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:10:20.578Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:10:20.587Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:14:50.523Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:14:50.543Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:14:50.556Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:14:50.564Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:16:48.527Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "\"phoneNumber\" must be a string",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"phoneNumber\" must be a string"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:17:03.259Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "\"phoneNumber\" must be a string",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"phoneNumber\" must be a string"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:18:44.538Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:18:44.559Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:18:44.614Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:18:44.653Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:19:28.911Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "User validation failed: accountConfimation.timestamp: Path `accountConfimation.timestamp` is required., accountConfimation.code: Path `accountConfimation.code` is required., accountConfimation.token: Path `accountConfimation.token` is required.",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: User validation failed: accountConfimation.timestamp: Path `accountConfimation.timestamp` is required., accountConfimation.code: Path `accountConfimation.code` is required., accountConfimation.token: Path `accountConfimation.token` is required.\n    at model.Document.invalidate (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\mongoose\\lib\\document.js:3312:32)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\mongoose\\lib\\document.js:3073:17\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:21:00.438Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "User validation failed: accountConfimation.timestamp: Path `accountConfimation.timestamp` is required., accountConfimation.code: Path `accountConfimation.code` is required., accountConfimation.token: Path `accountConfimation.token` is required.",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: User validation failed: accountConfimation.timestamp: Path `accountConfimation.timestamp` is required., accountConfimation.code: Path `accountConfimation.code` is required., accountConfimation.token: Path `accountConfimation.token` is required.\n    at model.Document.invalidate (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\mongoose\\lib\\document.js:3312:32)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\mongoose\\lib\\document.js:3073:17\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\mongoose\\lib\\schemaType.js:1388:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:23:49.993Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:23:50.004Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:23:50.010Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:23:50.016Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:24:09.599Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:24:09.627Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:24:09.641Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:24:09.669Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:26:41.182Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:26:41.191Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:26:41.195Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:26:41.200Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:27:57.363Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e08f7dfd258a2284f80470",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood10@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNDQ3NywiZXhwIjoxNzc2MzI4MDc3fQ.bGzoLAxUYTjBkWh6mZuI4-T8DQfZgKWgtC0_9ZIT1j0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNDQ3NywiZXhwIjoxODA3ODYwNDc3fQ.bdEm3AbtBLV8-zzlnqMA7B7e2dc4uiUvpI_nm_9hmH0"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:28:32.410Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:67:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:28:44.233Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e08f7dfd258a2284f80470",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood10@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNDUyNCwiZXhwIjoxNzc2MzI4MTI0fQ.ch-GXdfm77ZkJkmR6rm1OH2QzH2UlfFHWYL_eDrE4q4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNDUyNCwiZXhwIjoxODA3ODYwNTI0fQ.Itujs3eXTo2wLMJTgUTehCJGAdIlp_ldWohV9ox54po"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:29:00.645Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e08f7dfd258a2284f80470",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood10@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNDU0MCwiZXhwIjoxNzc2MzI4MTQwfQ.A4ce7zDzE7VrMJfvNoqvUXpIln8llI3ow7HneAOH3zQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNDU0MCwiZXhwIjoxODA3ODYwNTQwfQ.UCGuvQHiTPL3cdwj81N-6WTJRdNF8Rj_m0cUCAWASAU"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:42:40.663Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e08f7dfd258a2284f80470",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood10@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTM2MCwiZXhwIjoxNzc2MzI4OTYwfQ.yeqBIRkYNhMjv6UDRbTVBTsiLZteSfPJmgLBN-mNhXQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTM2MCwiZXhwIjoxODA3ODYxMzYwfQ.GWX9yWVRJAslucAsAdsGJMvfNhE8Aj6xBvMPP3d3oJs"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:43:00.687Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e08f7dfd258a2284f80470",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood10@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTM4MCwiZXhwIjoxNzc2MzI4OTgwfQ.FD12S0a3cwtrszYcKt7M92WwXJCBAriSNqqIYXAdqi0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOGY3ZGZkMjU4YTIyODRmODA0NzAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTM4MCwiZXhwIjoxODA3ODYxMzgwfQ.Y1k9fDvoS4B-R3RV_WjHltC-FtIuMZZHrIPf8AKcN2Y"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:44:11.332Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e0934bfd258a2284f80478",
+                "name": "Muhammad Mashood khan",
+                "email": "alikhan@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTM0YmZkMjU4YTIyODRmODA0NzgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTQ1MSwiZXhwIjoxNzc2MzI5MDUxfQ.yCf5ucKXZNhPgKR3uz1S3WKOH_Gid6XjzaXmztTIPfo",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTM0YmZkMjU4YTIyODRmODA0NzgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTQ1MSwiZXhwIjoxODA3ODYxNDUxfQ.RjgspkzLbfXv7xp6VCHt--IMeoRGc21qWtkW_Skkg6s"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:44:40.672Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e0934bfd258a2284f80478",
+                "name": "Muhammad Mashood khan",
+                "email": "alikhan@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTM0YmZkMjU4YTIyODRmODA0NzgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTQ4MCwiZXhwIjoxNzc2MzI5MDgwfQ.BUihErFJFmrkyj3oTsbpy4IRBFsZ7DeXHsgL-orEu1s",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTM0YmZkMjU4YTIyODRmODA0NzgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTQ4MCwiZXhwIjoxODA3ODYxNDgwfQ.s603JIGXgBJDBaZcm_KfFQGMXq3R8UIOgRRUo0Sxqi0"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:50:08.643Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e094b0fd258a2284f8047c",
+                "name": "Ali Khan",
+                "email": "ali@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTRiMGZkMjU4YTIyODRmODA0N2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTgwOCwiZXhwIjoxNzc2MzI5NDA4fQ.XVavISZ8yQoQeNUsVLL37Qic35HzQB_mMbS9SjqNvLU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTRiMGZkMjU4YTIyODRmODA0N2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTgwOCwiZXhwIjoxODA3ODYxODA4fQ.3hwWk-eC2Er_sl_aow4njtuh0fnYcQzo4Uh-0jcKnJQ"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:50:26.908Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:67:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:50:35.145Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e094b0fd258a2284f8047c",
+                "name": "Ali Khan",
+                "email": "ali@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTRiMGZkMjU4YTIyODRmODA0N2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTgzNSwiZXhwIjoxNzc2MzI5NDM1fQ.0if1bUCXVZv2utzX1jp8G67rtsHPh2AZ7eZ3jvxNSfI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTRiMGZkMjU4YTIyODRmODA0N2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTgzNSwiZXhwIjoxODA3ODYxODM1fQ.uMu4uS3c0zN9hQkPFE3TFtd6k0wmUL-dGRBJ01UtZuU"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:50:54.989Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e094b0fd258a2284f8047c",
+                "name": "Ali Khan",
+                "email": "ali@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTRiMGZkMjU4YTIyODRmODA0N2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTg1NCwiZXhwIjoxNzc2MzI5NDU0fQ.gt6DQQgUxvX-CsR2lKacvGvVobRGY_Mvb3URmNZzYrk",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTRiMGZkMjU4YTIyODRmODA0N2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNTg1NCwiZXhwIjoxODA3ODYxODU0fQ.TR1a95Mn1ibfwK6FhWbqX1dkfm5QoD0jKK5BzUWBHZY"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:51:49.173Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e09515fd258a2284f80482",
+                "name": "Ali Khan",
+                "email": "Ali1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTUxNWZkMjU4YTIyODRmODA0ODIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI1OTA5LCJleHAiOjE3NzYzMjk1MDl9.iNHWuf6W9vpH5kKhUpsbLeQvkmg8S5rNl-waiHSKg-k",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTUxNWZkMjU4YTIyODRmODA0ODIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI1OTA5LCJleHAiOjE4MDc4NjE5MDl9.kaKxw1FIT_F2887DfH6cIinxfN885jUfH0t7Hrows6M"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:52:13.214Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:62:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:52:21.197Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:62:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:52:24.343Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:62:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:05.523Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:05.548Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:05.567Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:05.582Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:24.190Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:24.203Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:24.209Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:55:24.215Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:57:12.275Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e09658ad2757f017a1da98",
+                "name": "Anas",
+                "email": "anas@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTY1OGFkMjc1N2YwMTdhMWRhOTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNjIzMiwiZXhwIjoxNzc2MzI5ODMyfQ.Ny9_UgaBG7voV2IDYL1kKVWlvt_FUVCNI6CWKNFmn1I",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTY1OGFkMjc1N2YwMTdhMWRhOTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNjIzMiwiZXhwIjoxODA3ODYyMjMyfQ.B0lVlVYwNC8nypKfBR7dFGHAUbUP0F4T0RtuS5b9Wgs"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:57:33.182Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e09658ad2757f017a1da98",
+                "name": "Anas",
+                "email": "anas@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTY1OGFkMjc1N2YwMTdhMWRhOTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNjI1MywiZXhwIjoxNzc2MzI5ODUzfQ.7t8V35wH1ZYoRYywOOWgxkLGckKDej9Jb7-HNt5Oc9M",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTY1OGFkMjc1N2YwMTdhMWRhOTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNjI1MywiZXhwIjoxODA3ODYyMjUzfQ.NY-qv2szoN3rrqxyH3P5VVmC-cvhCX7YpkER4V25aTQ"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:57:50.668Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e09658ad2757f017a1da98",
+                "name": "Anas",
+                "email": "anas@gmail.com",
+                "role": "user"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTY1OGFkMjc1N2YwMTdhMWRhOTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNjI3MCwiZXhwIjoxNzc2MzI5ODcwfQ.WSWZgyvbO5yyr4_CoT_a2CHRqaR16XtExKWe06zjiy4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTY1OGFkMjc1N2YwMTdhMWRhOTgiLCJyb2xlIjoidXNlciIsImlhdCI6MTc3NjMyNjI3MCwiZXhwIjoxODA3ODYyMjcwfQ.VTriEKOapG0VKeEGuFi_8dcLyGYOUwz1hmgUkv-bxp0"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T07:58:38.664Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 409,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "email already exists for the User",
+        "data": null,
+        "trace": {
+            "error": "Error: email already exists for the User\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:18:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T07:59:05.101Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e096c9ad2757f017a1da9e",
+                "name": "Anas",
+                "email": "anas1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTZjOWFkMjc1N2YwMTdhMWRhOWUiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI2MzQ1LCJleHAiOjE3NzYzMjk5NDV9.fvB6TAXyaE54o68cWwlZJhXl8wA36dVfLHer3ItCWLA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTZjOWFkMjc1N2YwMTdhMWRhOWUiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI2MzQ1LCJleHAiOjE4MDc4NjIzNDV9.AjQkyVbvCnkm9aJstWfqmKyVlQAPNbzRg8MCKrpb06g"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:00:01.239Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 409,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "email already exists for the User",
+        "data": null,
+        "trace": {
+            "error": "Error: email already exists for the User\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:18:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T08:00:10.620Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e0970aad2757f017a1daa2",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI2NDEwLCJleHAiOjE3NzYzMzAwMTB9.74bC77WN_SwSB-I3hxxxWn44bYCNN8-jt2TZsx4lFaM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI2NDEwLCJleHAiOjE4MDc4NjI0MTB9.9tUH3LPntM9vNJf01uw0JfB9NPUW2aOG2CQ1Kah9I1A"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T08:12:12.757Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e0970aad2757f017a1daa2",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI3MTMyLCJleHAiOjE3NzYzMzA3MzJ9.k13ylefhDo6nMw6DusXa2u6y5UOLXa80FLgEvOT6iW8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI3MTMyLCJleHAiOjE4MDc4NjMxMzJ9.sxSOBC5d8MfuB0zSi-Vg5OSkh_K8lrmsNjExIxmp5c4"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:13:00.043Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:15:28.465Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:15:28.491Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/products"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:17:58.896Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:21:07.042Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:22:37.859Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:23:13.250Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:24:15.155Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:25:09.975Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T08:26:09.948Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e0970aad2757f017a1daa2",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI3OTY5LCJleHAiOjE3NzYzMzE1Njl9.PnkEiwZOyTFmT8ef77UjBavuC9ShBogX_srVN6edqeE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzI3OTY5LCJleHAiOjE4MDc4NjM5Njl9.hq3ZUigYJJ86mHlAQLIhnFhsH8seBnxeoiWz1tCWSDI"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:26:24.971Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T08:29:49.079Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/upload"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:05:53.483Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e0970aad2757f017a1daa2",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzMzOTUzLCJleHAiOjE3NzYzMzc1NTN9.53u2YHaP9wV-SDJwlwF8mIsKWCByIUodMiVY7qJloWE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzMzOTUzLCJleHAiOjE4MDc4Njk5NTN9.-BuNwAHgadvg6_6B43JpbuL-4Nk2mSFHjtD7dNnp1gM"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:15:54.102Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e0970aad2757f017a1daa2",
+                "name": "Muhammad Mashood khan",
+                "email": "immashood1@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzM0NTU0LCJleHAiOjE3NzYzMzgxNTR9.TjvQxY8FihLPt7aDF1B0S28d4fOiFcUqGt_J5A41MWE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwOTcwYWFkMjc1N2YwMTdhMWRhYTIiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzM0NTU0LCJleHAiOjE4MDc4NzA1NTR9.RrxEsljdQ6lTfwS5qOmuGbglr7xEa2CBXqEOgqdCplE"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T10:16:32.269Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:64:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T10:16:37.999Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:69:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-04-16T10:16:43.725Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:69:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\STAR-\\Desktop\\multi-vendor e-commerce\\base_server\\src\\APIs\\user\\auth\\auth.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:24:00.992Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:24:01.005Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:24:01.016Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:24:01.028Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:52:13.584Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "user": {
+                "id": "69e0bf5d7c1e7c3bc1c52095",
+                "name": "Saad Store",
+                "email": "saad@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwYmY1ZDdjMWU3YzNiYzFjNTIwOTUiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzM2NzMzLCJleHAiOjE3NzYzNDAzMzN9.KJxWaCh0a7VbB1LHcD1_9r_pG-7tc5T0_CH33LXvvb0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwYmY1ZDdjMWU3YzNiYzFjNTIwOTUiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzM2NzMzLCJleHAiOjE4MDc4NzI3MzN9.nMS0jRzTlMi6jFQhOJHh6aZqisdxXp3jGwhGaztopkM"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T10:56:29.764Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/api/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "user": {
+                "id": "69e0bf5d7c1e7c3bc1c52095",
+                "name": "Saad Store",
+                "email": "saad@gmail.com",
+                "role": "seller"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwYmY1ZDdjMWU3YzNiYzFjNTIwOTUiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzM2OTg5LCJleHAiOjE3NzYzNDA1ODl9.btDMsm3IBylrb4eGZq1vl4vt-BsEYidA3koK4qcPZ9w",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWUwYmY1ZDdjMWU3YzNiYzFjNTIwOTUiLCJyb2xlIjoic2VsbGVyIiwiaWF0IjoxNzc2MzM2OTg5LCJleHAiOjE4MDc4NzI5ODl9.6-KRdmeN4oH9oAGEyAgTi85Jn5wwbylqQQ7ZlyCmTNg"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:03:15.529Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:03:15.539Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:03:15.544Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:03:15.549Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:07:06.609Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:07:06.623Z",
+    "message": "Rate limiter initiated successfully",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:07:06.630Z",
+    "message": "Application started successfully on port 5000",
+    "meta": {
+        "SERVER_URL": "http://localhost:5000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-04-16T11:07:06.637Z",
+    "message": "Server started on port 5000",
+    "meta": {}
+}

@@ -21,7 +21,8 @@ import tokenRepository from '../_shared/repo/token.repository'
 dayjs.extend(utc)
 
 export const registrationService = async (payload: IRegisterRequest) => {
-    const { name, phoneNumber, email, password } = payload
+    const { name, phoneNumber, email, password, role } = payload
+    const normalizedEmail = email.trim().toLowerCase()
 
     // Parsing and validating phone number
     const { countryCode, internationalNumber, isoCode } = parsers.parsePhoneNumber('+' + phoneNumber)
@@ -36,7 +37,7 @@ export const registrationService = async (payload: IRegisterRequest) => {
     }
 
     //Validate if user already exists
-    await validate.userAlreadyExistsViaEmail(email)
+    await validate.userAlreadyExistsViaEmail(normalizedEmail)
 
     //Encrypting password
     const hashedPassword = await hashing.hashPassword(password)
@@ -47,7 +48,7 @@ export const registrationService = async (payload: IRegisterRequest) => {
 
     const userObj: IUser = {
         name,
-        email,
+        email: normalizedEmail,
         phoneNumber: {
             countryCode,
             isoCode,
@@ -57,7 +58,7 @@ export const registrationService = async (payload: IRegisterRequest) => {
             status: false,
             token,
             code: OTP,
-            timestamp: null
+            timestamp: new Date()
         },
         passwordReset: {
             token: null,
@@ -65,7 +66,7 @@ export const registrationService = async (payload: IRegisterRequest) => {
             lastResetAt: null
         },
         lastLoginAt: null,
-        role: EUserRoles.USER,
+        role: role || EUserRoles.USER,
         timezone: timezone[0].name,
         password: hashedPassword,
         consent: true
@@ -130,9 +131,10 @@ export const accountConfirmationService = async (token: string, code: string) =>
 
 export const loginService = async (payload: ILoginRequest) => {
     const { email, password } = payload
+    const normalizedEmail = email.trim().toLowerCase()
 
     //Check if the user is registered
-    const user = await query.findUserByEmail(email, 'password')
+    const user = await query.findUserByEmail(normalizedEmail, 'password')
     if (!user) {
         throw new CustomError(responseMessage.NOT_FOUND('User'), 404)
     }
@@ -164,3 +166,4 @@ export const loginService = async (payload: ILoginRequest) => {
         refreshToken: refreshToken
     }
 }
+

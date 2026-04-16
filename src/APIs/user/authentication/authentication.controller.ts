@@ -9,7 +9,6 @@ import { accountConfirmationService, loginService, registrationService } from '.
 import { CustomError } from '../../../utils/errors'
 import asyncHandler from '../../../handlers/async'
 import health from '../../../utils/health'
-import { EApplicationEnvironment } from '../../../constant/application'
 import config from '../../../config/config'
 import query from '../_shared/repo/token.repository'
 
@@ -70,20 +69,20 @@ export default {
                 const DOMAIN = health.getDomain()
                 response
                     .cookie('accessToken', isLoggedIn.accessToken, {
-                        path: '/v1',
+                        path: '/',
                         domain: DOMAIN,
                         sameSite: 'strict',
                         maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
                         httpOnly: true,
-                        secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                        secure: !(config.ENV === 'development')
                     })
                     .cookie('refreshToken', isLoggedIn.refreshToken, {
-                        path: '/v1',
+                        path: '/',
                         domain: DOMAIN,
                         sameSite: 'strict',
                         maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
                         httpOnly: true,
-                        secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                        secure: !(config.ENV === 'development')
                     })
 
                 httpResponse(response, request, 200, responseMessage.auth.LOGIN_SUCCESSFUL, isLoggedIn)
@@ -110,20 +109,20 @@ export default {
             //Clearing cookies
             response
                 .clearCookie('accessToken', {
-                    path: '/v1',
+                    path: '/',
                     domain: DOMAIN,
                     sameSite: 'strict',
                     maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
                     httpOnly: true,
-                    secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                    secure: !(config.ENV === 'development')
                 })
                 .clearCookie('refreshToken', {
-                    path: '/v1',
+                    path: '/',
                     domain: DOMAIN,
                     sameSite: 'strict',
                     maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
                     httpOnly: true,
-                    secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                    secure: !(config.ENV === 'development')
                 })
 
             httpResponse(response, request, 200, responseMessage.SUCCESS, null)

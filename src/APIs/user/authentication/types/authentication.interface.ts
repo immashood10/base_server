@@ -1,10 +1,12 @@
 import { Request } from 'express'
+import { EUserRoles } from '../../../../constant/users'
 
 export interface IRegisterRequest {
     name: string
     email: string
     phoneNumber: string
     password: string
+    role: EUserRoles
     consent: boolean
 }
 

@@ -1,5 +1,6 @@
 import joi from 'joi'
 import { ILoginRequest, IRegisterRequest } from '../types/authentication.interface'
+import { EUserRoles } from '../../../../constant/users'
 
 export const registerSchema = joi.object<IRegisterRequest, true>({
     name: joi.string().min(2).max(72).trim().required(),
@@ -12,6 +13,7 @@ export const registerSchema = joi.object<IRegisterRequest, true>({
         .regex(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$/)
         .trim()
         .required(),
+    role: joi.string().valid(...Object.values(EUserRoles)).default(EUserRoles.USER),
     consent: joi.boolean().valid(true).required()
 })
 

@@ -1,7 +1,6 @@
 import { Request } from 'express'
 import { THttpError } from '../../types/types'
 import responseMessage from '../../constant/responseMessage'
-import { EApplicationEnvironment } from '../../constant/application'
 import config from '../../config/config'
 import logger from '../logger'
 
@@ -22,8 +21,7 @@ export default (err: Error | unknown, req: Request, errorStatusCode: number = 50
 
     logger.error(`Controller Response`, { meta: errorObj })
 
-    //To check if the ENV is production
-    if (config.ENV === EApplicationEnvironment.PRODUCTION) {
+    if (config.ENV === 'production') {
         delete errorObj.request.ip
         delete errorObj.trace
     }

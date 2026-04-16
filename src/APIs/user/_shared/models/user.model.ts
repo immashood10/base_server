@@ -13,6 +13,8 @@ const userSchema = new mongoose.Schema<IUser>(
         email: {
             type: String,
             unique: true,
+            trim: true,
+            lowercase: true,
             required: true
         },
         phoneNumber: {
@@ -54,15 +56,15 @@ const userSchema = new mongoose.Schema<IUser>(
             },
             token: {
                 type: String,
-                rquired: true
+                required: true
             },
             code: {
                 type: String,
-                rquired: true
+                required: true
             },
             timestamp: {
                 type: Date,
-                rquired: true
+                required: true
             }
         },
         passwordReset: {

@@ -3,4 +3,4 @@ export enum EApplicationEnvironment {
     DEVELOPMENT = 'development'
 }
 
-export const API_ROOT = '/v1'
+export const API_ROOT = '/api'

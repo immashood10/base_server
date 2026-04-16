@@ -1,7 +1,6 @@
 import { Request, Response } from 'express'
 import { THttpResponse } from '../types/types'
 import config from '../config/config'
-import { EApplicationEnvironment } from '../constant/application'
 import logger from './logger'
 
 export default (res: Response, req: Request, responseStatusCode: number, responseMessage: string, data: unknown): void => {
@@ -19,8 +18,7 @@ export default (res: Response, req: Request, responseStatusCode: number, respons
 
     logger.info(`Controller Response`, { meta: response })
 
-    //To check if the ENV is production
-    if (config.ENV === EApplicationEnvironment.PRODUCTION) {
+    if (config.ENV === 'production') {
         delete response.request.ip
     }
 

@@ -1,5 +1,8 @@
 {
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "register-page-corrected.tsx", "src/__tests__/**/*"],
     "compilerOptions": {
+        "jsx": "react",
         /* Visit https://aka.ms/tsconfig to read more about this file */
 
         /* Projects */
