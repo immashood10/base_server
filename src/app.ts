@@ -3,6 +3,9 @@ import path from 'path'
 import router from './APIs'
 import errorHandler from './middlewares/errorHandler'
 import notFound from './handlers/notFound'
+import httpResponse from './handlers/httpResponse'
+import responseMessage from './constant/responseMessage'
+import { API_ROOT } from './constant/application'
 import helmet from 'helmet'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
@@ -44,6 +47,16 @@ app.options('*', cors())
 
 app.use(express.json())
 app.use(express.static(path.join(__dirname, '../', 'public')))
+
+app.get('/', (request, response) => {
+    httpResponse(response, request, 200, responseMessage.SUCCESS, {
+        message: 'Base Server API is running',
+        endpoints: {
+            health: `${API_ROOT}/health`,
+            self: `${API_ROOT}/self`
+        }
+    })
+})
 
 // Router
 router(app)
